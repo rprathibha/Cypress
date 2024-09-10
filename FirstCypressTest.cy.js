@@ -5,7 +5,7 @@ describe('Test Suite1', () => {
     cy.log("Navigated to Youtube");
     cy.get('input[id="search"]').type("Java Script by Testers Talk");
     cy.get('button[id="search-icon-legacy"]>yt-icon').click();
-    cy.log("Test1 is completed")
+    cy.log("Test1 is completed....")
 
 
   })
